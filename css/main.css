@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.relative{position: relative;}
+.hidden{display: none;}
+.copyright {border-left:1px solid #fff;}
+.copyright p{font-size:12px;}
+.copyfooter p{font-size:12px; text-align:left; margin:5px 0;}
+.menu-bottom li a{font-size:10px;}
+.linea{
+	height:2px;
+	clear:both;
+	background-color:#11175e;
+	margin:0;
+}
+.login{
+	height: 35px;
+	background: #081841;
+	color: #fff;
+	padding: 8px 10px;
+	cursor: pointer;
+}
+.menutop{width: 220px; height: 240px; background:#081841; }
+.menutop{padding: 15px; position: absolute; z-index: 2;}
+.menutop input{ height: 15px padding:10px; width: 180px; background: #fff;}
+.menutop button{color: #fff; float: right; margin-right: 10px;}
+.menutop p{color: #fff; font-size: 14px;}
+
+footer{background:#081841; width:100%; height:200px;}
+footer p{color:#fff;}
+.m20{margin:20px;}
+
+
+ul.home-social {
+    display: block;
+    float: right;
+    margin-bottom: 8px;
+    list-style: none;
+}
+ul.home-social li {
+    display: block;
+    float: left;
+    list-style: none outside none;
+    margin-left: 10px;
+}
+ul.home-social li:first-child {
+    margin-left: 0;
+}
+ul.home-social li a {
+    background: url("../img/social.png") no-repeat scroll center 0 transparent;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+ul.home-social li a:hover {
+    opacity: 0.8;
+}
+ul.home-social li a.twitter {
+    background-position: center 0;
+}
+ul.home-social li a.facebook {
+    background-position: center -200px;
+}
+ul.home-social li a.mail {
+    background-position: center -400px;
+}
+
